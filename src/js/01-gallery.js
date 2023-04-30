@@ -39,4 +39,4 @@ function createElemOfListMarkup(galleryItems) {
      
 }
 
-export const galleryLightbox = new SimpleLightbox('.gallery, .gallery__link', options);
+ const galleryLightbox = new SimpleLightbox('.gallery, .gallery__link', options);
