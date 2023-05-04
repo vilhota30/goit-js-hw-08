@@ -39,4 +39,4 @@ function createElemOfListMarkup(galleryItems) {
      
 }
 
- const galleryLightbox = new SimpleLightbox('.gallery, .gallery__link', options);
+ new SimpleLightbox('.gallery, .gallery__link', options);

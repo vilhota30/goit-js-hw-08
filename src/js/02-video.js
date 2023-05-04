@@ -18,7 +18,7 @@ player.setCurrentTime(localStorage.getItem(STORAGE_KEY));
 function autoplayVideo() {
   const localStorageValue = localStorage.getItem(STORAGE_KEY);
   if (localStorageValue) {
-    player.setCurrentTime(localStorageValue);
+    player.setCurrentTime(localStorageValue)
   }
 }
-
+console.log(autoplayVideo);
