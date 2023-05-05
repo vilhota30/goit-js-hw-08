@@ -21,4 +21,4 @@ function autoplayVideo() {
     player.setCurrentTime(localStorageValue)
   }
 }
-console.log(autoplayVideo);
+console.log(autoplayVideo());
