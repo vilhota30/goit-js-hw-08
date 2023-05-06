@@ -13,7 +13,7 @@ function onPlayer({ seconds }) {
   localStorage.setItem(STORAGE_KEY, seconds);
 };
 
-player.setCurrentTime(localStorage.getItem(STORAGE_KEY));
+ 
 
 function autoplayVideo() {
   const localStorageValue = localStorage.getItem(STORAGE_KEY);
